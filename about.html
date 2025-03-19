@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pet Care</title>
+        <link rel="icon" type="image/x-icon" href ="footlogo.jpg">
+        <link rel="stylesheet" href="main.css">
+
+        <style>
+
+
+            main {
+                margin-bottom: collapse;
+                margin-bottom: 0;
+                padding-bottom: 0;
+                border-bottom: none;
+            }
+
+            footer {
+            margin-top: collapse;
+            top: -1px;
+            }
+
+
+            main .about-container {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                max-width: 1200px;
+                margin: 0 auto;
+                text-align: center;
+                align-items: center;
+                margin-bottom: 0;
+            
+            }
+
+            .aboutcolumn main{
+                margin-bottom: 0px;
+            }
+
+            main .column {
+                text-align: center;
+            }
+
+            #mainimg{
+                width: 600px;
+                margin-bottom: 0;   
+                height: 100%;
+            }
+
+            main h2{
+                margin-bottom: 2px;
+                margin-top: 0;
+                font-family: Georgia, serif;
+            }
+
+            h2::first-letter {
+                font-size: 1.5em;
+            }
+
+            hr{
+                border: 2px solid rgb(0, 0, 0);
+                width: 35%;
+                margin-left: 130px;
+                margin-bottom: 30px;
+            }
+
+            main p {
+                line-height: 1.5; 
+                font-size: larger;
+            }
+            main ul li{
+                list-style: none;
+                display: inline;
+            }
+
+            .about-container ul li img{
+                width: 10%;
+                margin-right: 20px;
+                margin-bottom: 0;
+            }
+
+            .button-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            main button {
+                background-color: transparent;
+                border: 3px solid #000;
+                border-radius: 7px;
+                padding: 10px 20px;
+                margin-bottom: 0px;
+                font-weight: bold;
+                width: 40%;
+                font-size: 20px;
+                text-align: center;
+            }
+
+            .line {
+                width: 3px;
+                height: 50px; 
+                background-color: #000;
+                margin-bottom: 0px;
+            }
+
+            main button:hover{
+            border: 2px solid green;
+            color: darkgreen;
+            }
+
+            main button a:link{
+            text-decoration: none;
+            color: #000;
+            }
+
+            main button a:visited{
+            color:#000;
+            }
+
+            main button a:hover{
+            cursor:help;
+            color: darkgreen;
+            }
+
+
+            .sprite2 {
+                background-image: url(spritesheet2.png);
+                background-repeat: no-repeat;
+                display: inline-block;
+                margin-right: 20px;
+            }
+
+
+            .sprite2:hover {
+                filter: grayscale(100%); 
+                transition: filter 0.3s; 
+                content: attr(data-name);
+            }
+
+            .sprite2::before {
+                content: attr(data-name);
+                position: absolute;
+                top: 90%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 12px;
+                font-weight: bold;
+                color: #000000;
+                background-color: rgba(255, 255, 255, 0.7);
+                padding: 5px 10px;
+                border: 1px solid black;
+                border-radius: 5px;
+                display: none; 
+            }
+
+            
+            .sprite2:hover::before {
+                display: block; 
+            }
+
+
+
+            .sprite-fb {
+                width: 50px;
+                height: 50px;
+                background-position: -10px -10px;
+            }
+
+            .sprite-ig {
+                width: 50px;
+                height: 50px;
+                background-position: -80px -10px;
+            }
+
+            .sprite-wtsap {
+                width: 50px;
+                height: 50px;
+                background-position: -150px -10px;
+            }
+
+            .sprite-yt {
+                width: 50px;
+                height: 50px;
+                background-position: -220px -10px;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <div>
+                <br>
+                <p id="headtopic"><img id="leftheadpic" src="redDogPawHeart.png"><a href="home.html"><b> Pet Care </b></a><img id="rightheadpic" src="redDogPawHeart.png"></p>
+        
+                <nav  class="navbar">
+                    <ul>
+                        <button><a href="home.html">HOME</a></button>    
+                        <button><a href="services.html">  SERVICES</a></button>    
+                        <button><a href="about.html">  ABOUT</a></button>    
+                        <button><a href="reviews.html">  REVIEWS</a></button>  
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        
+
+
+        <main>
+            <div class="about-container">
+                <div class="aboutcolumn">
+                    <img id="mainimg" src="single6.jpeg">
+                </div>
+                <div class="aboutcolumn">
+                    <h2>About Us</h2>
+                    <hr>
+                    <br>
+                    <p>Welcome to Pet Care. Shop on our website to avail<br> exciting offers inclusively for your pet friend. Earn<br>points and get Coupons for additional discounts. We<br>
+                    deal in Dog Toys, Tasty Snacks, Collars, Leashes,<br>Harness with latest designs that you and your pet will <br>
+                    fall in love with. Want to stay in touch ? No problem-<br>the page also features useful links to social media<br>pages, as well as our online shop.</p>
+                    <br>
+                    <br>
+                    <div class="button-container">
+                        <button><a href="home.html">WORK</a></button>
+                        <div class="line"></div>
+                        <button><a href="services.html">SERVICE</a></button>
+                        <div class="line"></div>
+                        <button><a href="contact.html">CONTACT</a></button>
+                    </div>
+
+                    <br>
+                    <br> <br>
+                    <br>
+
+
+                    
+                    <i class="sprite2 sprite-fb" data-name="Facebook"></i>
+                    <i class="sprite2 sprite-ig" data-name="Instagram"></i>
+                    <i class="sprite2 sprite-wtsap" data-name="WhatsApp"></i>
+                    <i class="sprite2 sprite-yt" data-name="YouTube"></i>
+                </div>
+
+            </div>
+            
+
+        </main>
+
+
+
+        <footer>
+
+    
+            <div class="container">
+
+                <div class="column" id="column1">
+                    <img id="footlogo" src="footlogo.png" alt="Pet Care Logo">
+                    <p id="petsfont"><b>P</b>ets are humanizing.They remind us we have <br> an obligation and responsibility <br>to preserve and nurture<br> and care for all life</p>
+                </div>
+                
+                <div class="column">
+                    <h3 class="info question">Have A Question?</h3>
+                    <ul>
+                       
+                        <li><a href="services.html">Services</a></li>
+                        
+                        <li><a href="hostel.html">Dog Hostel</a></li>
+                 
+                        <li><a href="about.html">About Us</a></li>
+                        
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="column">
+                    <h3 class="info">Information</h3>
+                  
+                    <table>
+                        <tr>
+                            <td class="sprite sprite-call"></td>
+                            <td> Pet Care (Pvt) Ltd, 123, 1st Floor,<br> Dalugama, Kelaniya.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="sprite sprite-location"></td>
+                            <td><a href="tel:+94112999999"> Telephone 0112 999999</a><br>Fax: 0094 112 621 382</td>
+                        </tr>
+                        <tr></tr>
+                        <tr>
+                            <td class="sprite sprite-mail"></td>
+                            <td id="mail"><a href="mailto:info@petcare.com"> info@petcare.com</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="column">
+                    <h3  class="info">Visit Us</h3><br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7920.63769191888!2d79.91286920114061!3d6.971659360355516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae257f649062ffb%3A0xcbffa7579bd3750!2sKelaniya%2011300!5e0!3m2!1sen!2slk!4v1722612344751!5m2!1sen!2slk" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            
+            </div>
+        </footer>
+
+        <div class="copyright">
+            <p>&copy; 2024 Pet Care 11600. Designed By Team PETCARE</p>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

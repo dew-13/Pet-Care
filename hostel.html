@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pet Care</title>
+        <link rel="icon" type="image/x-icon" href ="footlogo.jpg">
+        <link rel="stylesheet" href="main.css">
+
+        <style>
+
+                        
+            main{
+                align-content: center;
+                background-image: url(grp.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            main .servicecontainer {
+                width: 50%;
+                padding: 5px;
+                border: 5px double #1b9b1b;
+                border-radius: 8%;
+                margin: 15px auto;
+                background-color: rgba(255, 255, 255, 0.79);
+                
+            }
+
+            h2{
+                margin-left: 2px;
+                margin-top: 20px;
+                margin-bottom: 0;
+                display: block;
+                padding-bottom: 0px;
+                color: rgba(159, 161, 7, 0.82);
+                font-family: Georgia, serif;
+            }
+
+            h2::first-letter {
+                font-size: 1.5em;
+            }
+            
+            h2:nth-child(2):first-letter {
+                font-size: 1.5em;
+            }
+
+            hr{
+                border: 2px solid white;
+                width: 30%;
+                margin-left: 2px;
+                margin-bottom: 30px;
+            }
+
+
+            .servicecontainer  input {
+                width: 100%;
+                padding: 10px;
+                margin: 2px auto;
+                box-sizing: border-box;
+                border: 1px solid #ccc;
+            }
+
+            .servicecontainer  input:hover {
+                background-color: #d0eb9f;
+            }
+
+            .servicecontainer button {
+                background-color: #ffee00;
+                color: rgb(0, 0, 0);
+                padding: 10px 20px;
+                display: block;
+                margin: 10px auto;
+                border: 1px solid rgb(0, 0, 0);
+                border-radius: 10px;
+                text-align: center;
+            }
+
+            button:hover {
+                background-color: #1cd31cef;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <div>
+                <br>
+                <p id="headtopic"><img id="leftheadpic" src="redDogPawHeart.png"><a href="home.html"><b> Pet Care </b></a><img id="rightheadpic" src="redDogPawHeart.png"></p>
+                
+                <nav  class="navbar">
+                    <ul>
+                        <button><a href="home.html">HOME</a></button>    
+                        <button><a href="services.html">  SERVICES</a></button>    
+                        <button><a href="about.html">  ABOUT</a></button>    
+                        <button><a href="reviews.html">  REVIEWS</a></button>  
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        
+
+
+        <main>
+            <div class="servicecontainer">
+                <form>
+                    <h2>DOG HOSTEL</h2>
+                    <hr>
+                    <label for="inDate">Check In Date:</label>
+                    <br>
+                    <input id="inDate" type="date" name="check-in" placeholder="mm/dd/yyyy">
+                
+                    <br><br>
+                    <label for="outDate">Check Out Date:</label>
+                    <br>
+                    <input id="outDate" type="date" name="check-out" placeholder="mm/dd/yyyy">
+                
+                    <br><br>
+                    <label for="dogs">Dogs:</label>
+                    <br>
+                    <input id="dogs" type="number" name="dog-count" placeholder="1">
+                
+                    <br><br>
+                    <label for="pups">Pups:</label>
+                    <br>
+                    <input id="pups" type="number" name="pups-count" placeholder="1">
+                
+                    <br><br>
+                    <label for="beds">Beds:</label>
+                    <br>
+                    <input id="beds" type="number" name="bed-count" placeholder="1">
+                
+                    <br><br>
+                
+                    <button type="submit">BOOK NOW</button>
+                
+                </form>
+            </div>
+        </main>
+
+
+
+        <footer>
+
+    
+            <div class="container">
+
+                <div class="column" id="column1">
+                    <img id="footlogo" src="footlogo.png" alt="Pet Care Logo">
+                    <p id="petsfont"><b>P</b>ets are humanizing.They remind us we have <br> an obligation and responsibility <br>to preserve and nurture<br> and care for all life</p>
+                </div>
+                
+                <div class="column">
+                    <h3 class="info question">Have A Question?</h3>
+                    <ul>
+                       
+                        <li><a href="services.html">Services</a></li>
+                        
+                        <li><a href="hostel.html">Dog Hostel</a></li>
+                 
+                        <li><a href="about.html">About Us</a></li>
+                        
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="column">
+                    <h3 class="info">Information</h3>
+                  
+                    <table>
+                        <tr>
+                            <td class="sprite sprite-call"></td>
+                            <td> Pet Care (Pvt) Ltd, 123, 1st Floor,<br> Dalugama, Kelaniya.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="sprite sprite-location"></td>
+                            <td><a href="tel:+94112999999"> Telephone 0112 999999</a><br>Fax: 0094 112 621 382</td>
+                        </tr>
+                        <tr></tr>
+                        <tr>
+                            <td class="sprite sprite-mail"></td>
+                            <td id="mail"><a href="mailto:info@petcare.com"> info@petcare.com</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="column">
+                    <h3  class="info">Visit Us</h3><br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7920.63769191888!2d79.91286920114061!3d6.971659360355516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae257f649062ffb%3A0xcbffa7579bd3750!2sKelaniya%2011300!5e0!3m2!1sen!2slk!4v1722612344751!5m2!1sen!2slk" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            
+            </div>
+        </footer>
+        
+        <div class="copyright">
+            <p>&copy; 2024 Pet Care 11600. Designed By Team PETCARE</p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    </body>
+</html>

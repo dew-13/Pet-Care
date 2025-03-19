@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pet Care</title>
+        <link rel="icon" type="image/x-icon" href ="footlogo.jpg">
+        <link rel="stylesheet" href="main.css">
+
+        <style>
+
+                        
+            body{
+                background-color: #888;
+            }
+
+
+            .parent {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                min-height: 100vh;
+                background-color: #888;
+            }
+            
+            .columnr {
+                background-color: #fff;
+                border-radius: 10px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                text-align: center;
+                width: 300px;
+                margin: 10px auto;
+            }
+            
+            main h2 {
+                color: #333;
+                margin-bottom: 10px;
+            }
+            
+            main p {
+                color: #555;
+                line-height: 1.6;
+            }
+            
+            .customer {
+            font-style: italic;
+            color: #888;
+            margin-top: 20px;
+            }
+            
+            #customer{
+                margin-left: 100px;
+                margin-top: 40px;;
+                display: block;
+                background-color: #888;
+                padding-bottom: 0px;
+                color: rgb(225, 255, 53);
+                font-family: Georgia, serif;
+            }
+
+            #customer::first-letter {
+            font-size: 1.5em;
+            }
+
+            hr{
+            border: 2px solid white;
+            width: 13%;
+            margin-left: 100px;
+            }
+            
+            main img {
+            width: 150px;
+            }
+
+            .parent{
+            margin: 30px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <div>
+                
+                <p id="headtopic"><img id="leftheadpic" src="redDogPawHeart.png"><a href="home.html"><b> Pet Care </b></a><img id="rightheadpic" src="redDogPawHeart.png"></p>
+                
+                <nav  class="navbar">
+                    <ul>
+                        <button><a href="home.html">HOME</a></button>    
+                        <button><a href="services.html">  SERVICES</a></button>    
+                        <button><a href="about.html">  ABOUT</a></button>    
+                        <button><a href="reviews.html">  REVIEWS</a></button>  
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+
+        <main>
+
+            <div><h2 id="customer">CUSTOMERS</h2><hr></div>
+
+            <div class="parent">
+                
+                <br>
+                <div class="columnr">
+                    <h2>Quick Service</h2>
+                    <p>The products I ordered<br> reached before time. The<br> support I received was<br> thorough and timely and<br> 
+                        the support team was<br> quick to respond with a <br>single interaction.<br> Awesome! Would<br> definitely 
+                        recommend <br>this to every pet owner for<br> best service, be it <br>technical support or<br> timely delivery.</p>
+                        <br>
+                    <div class="imgcont"><img src="own1.png"></div>
+                    <div class="customer">Stephani Fernando, Kelaniya </div>
+                </div>
+
+
+                <div class="columnr">
+                    <h2>Confortable Shopping</h2>
+                    <p>Was a little nervous to<br> order because I had<br> never considered<br> shopping online for my<br> Husky. Glad 
+                        I took the<br> chance, now I am a<br> happy returning<br> customer. You just made<br> pet shopping very easy. 
+                        <br>Thankyou Pet Care!</p>
+
+                        <br><br><br><br><br>
+                    <div class="imgcont"><img src="own4.png"></div>
+                    <div class="customer">Peter Almeda, Kadawatha</div>
+                    
+                </div>
+
+
+                <div class="columnr">
+                    <h2>Best Discounts</h2>
+                    <p>I can't even express how<br> excited I was when your<br> delivery arrived. The<br> quality of product is 
+                        100%<br> as addressed, that too, in<br> such a good price. I <br>bought my dog some toys<br> and a snack bowl 
+                        and he<br> just loved it. Just wanted<br> to thank you guys for <br>such an amazing service!</p>
+
+                        <br><br><br><br>
+                    <div class="imgcont"><img src="own3.png"></div>
+                    <div class="customer">Ravinath Perera, Kiribathgoda.</div>
+                </div>
+
+
+            </div>
+
+
+
+        </main>
+        
+
+        
+        <footer>
+
+    
+            <div class="container">
+
+                <div class="column" id="column1">
+                    <img id="footlogo" src="footlogo.png" alt="Pet Care Logo">
+                    <p id="petsfont"><b>P</b>ets are humanizing.They remind us we have <br> an obligation and responsibility <br>to preserve and nurture<br> and care for all life</p>
+                </div>
+                
+                <div class="column">
+                    <h3 class="info question">Have A Question?</h3>
+                    <ul>
+                       
+                        <li><a href="services.html">Services</a></li>
+                        
+                        <li><a href="hostel.html">Dog Hostel</a></li>
+                 
+                        <li><a href="about.html">About Us</a></li>
+                        
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="column">
+                    <h3 class="info">Information</h3>
+                  
+                    <table>
+                        <tr>
+                            <td class="sprite sprite-call"></td>
+                            <td> Pet Care (Pvt) Ltd, 123, 1st Floor,<br> Dalugama, Kelaniya.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="sprite sprite-location"></td>
+                            <td><a href="tel:+94112999999"> Telephone 0112 999999</a><br>Fax: 0094 112 621 382</td>
+                        </tr>
+                        <tr></tr>
+                        <tr>
+                            <td class="sprite sprite-mail"></td>
+                            <td id="mail"><a href="mailto:info@petcare.com"> info@petcare.com</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="column">
+                    <h3  class="info">Visit Us</h3><br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7920.63769191888!2d79.91286920114061!3d6.971659360355516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae257f649062ffb%3A0xcbffa7579bd3750!2sKelaniya%2011300!5e0!3m2!1sen!2slk!4v1722612344751!5m2!1sen!2slk" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            
+            </div>
+        </footer>
+
+        <div class="copyright">
+            <p>&copy; 2024 Pet Care 11600. Designed By Team PETCARE</p>
+        </div>
+    
+  
+          
+    
+    </body>
+</html>
